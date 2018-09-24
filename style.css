@@ -303,11 +303,12 @@ img {
 }
 
 .newscolumn {
+	padding: 30px;
 	width: 30%;
 }
 
 .textcolumn {
-	padding: 10px;
+	padding: 30px;
 	text-align: left;
 	width: 70%;
 }
@@ -322,11 +323,11 @@ img {
 
 @media screen and (max-width: 450px) {
     .textcolumn {
-	    padding: 10px;
+	    padding: 30px;
         width: 100%;
     }
      .newscolumn {
-	     padding: 10px;
+	     padding: 30px;
         width: 100%;
     }
 }
