@@ -156,7 +156,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(.active) {display: none;}
   .topnav .active {
 	  display: block;
@@ -168,7 +168,7 @@ body{
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
