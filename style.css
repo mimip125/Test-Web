@@ -321,7 +321,7 @@ img {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .textcolumn {
 	    padding: 30px;
         width: 100%;
