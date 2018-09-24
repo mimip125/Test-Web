@@ -181,14 +181,7 @@ body{
     text-align: left;
   }
 }
-@media screen and (max-width: 600px) {
-    .textcolumn {
-        width: 100%;
-    }
-     .newscolumn {
-        width: 100%;
-    }
-}
+
 * {
   box-sizing: border-box;
 }
@@ -319,6 +312,15 @@ img {
 	padding: 10px;
 	text-align: left;
 	width: 70%;
+}
+
+@media screen and (max-width: 450px) {
+    .textcolumn {
+        width: 100%;
+    }
+     .newscolumn {
+        width: 100%;
+    }
 }
 /* Add a transparency effect for thumnbail images */
 .demo {
