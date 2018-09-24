@@ -321,6 +321,17 @@ img {
 }
 
 
+@media screen and (max-width: 900px) {
+    .textcolumn {
+	    padding: 30px;
+        width: 50%;
+    }
+     .newscolumn {
+	     padding: 30px;
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .textcolumn {
 	    padding: 30px;
