@@ -180,6 +180,12 @@ body{
     display: block;
     text-align: left;
   }
+  .textcolumn {
+	  width: 100%;
+	}
+	.newscolumn {
+		width: 100%;
+	}
 }
 
 * {
