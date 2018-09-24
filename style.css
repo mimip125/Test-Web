@@ -303,16 +303,22 @@ img {
 }
 
 .newscolumn {
-	float: left;
 	width: 30%;
 }
 
 .textcolumn {
-	float: left;
 	padding: 10px;
 	text-align: left;
 	width: 70%;
 }
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
 
 @media screen and (max-width: 450px) {
     .textcolumn {
