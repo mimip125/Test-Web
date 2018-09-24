@@ -304,12 +304,13 @@ img {
 
 .newscolumn {
 	display: inline-block;
-	width: 40%;
+	width: 30%;
 }
 
 .textcolumn {
 	display: inline-block;
-	width: 60%;
+	text-align: left;
+	width: 70%;
 }
 /* Add a transparency effect for thumnbail images */
 .demo {
