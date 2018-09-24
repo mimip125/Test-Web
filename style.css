@@ -322,9 +322,11 @@ img {
 
 @media screen and (max-width: 450px) {
     .textcolumn {
+	    padding: 10px;
         width: 100%;
     }
      .newscolumn {
+	     padding: 10px;
         width: 100%;
     }
 }
