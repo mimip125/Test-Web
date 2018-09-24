@@ -303,12 +303,13 @@ img {
 }
 
 .newscolumn {
-	display: inline-block;
+	float: left;
 	width: 30%;
 }
 
 .textcolumn {
-	display: inline-block;
+	float: left;
+	padding: 10px;
 	text-align: left;
 	width: 70%;
 }
