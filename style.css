@@ -180,14 +180,15 @@ body{
     display: block;
     text-align: left;
   }
-  .textcolumn {
-	  width: 100%;
-	}
-	.newscolumn {
-		width: 100%;
-	}
 }
-
+@media screen and (max-width: 600px) {
+    .textcolumn {
+        width: 100%;
+    }
+     .newscolumn {
+        width: 100%;
+    }
+}
 * {
   box-sizing: border-box;
 }
