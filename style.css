@@ -104,7 +104,7 @@ body{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray; 
 }
 /* you can but your code all in one line like above */
-#page{ margin: 30px; }
+#page{ margin: 10%; }
 @media screen and (max-width: 450px) {
 	#page{margin: 15px; }
 }
