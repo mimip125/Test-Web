@@ -374,8 +374,9 @@ img {
 #info{
 	width: 100%;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	margin: 10%;
+	
 }
 #footer{
 	display: block;
