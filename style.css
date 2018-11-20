@@ -303,13 +303,13 @@ img {
 }
 
 .newscolumn {
-	width: 30%;
+	width: 34%;
 }
 
 .textcolumn {
 	padding: 10px;
 	text-align: left;
-	width: 60%;
+	width: 66%;
 }
 
 .right{
@@ -372,7 +372,6 @@ img {
 	margin: 10%;
 }
 #info{
-	width: 100%;
 	display: block;
 	text-align: center;
 	margin: 10%;
