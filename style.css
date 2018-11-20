@@ -373,7 +373,7 @@ img {
 }
 #info{
 	width: 100%;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	margin: 10%;
 	
