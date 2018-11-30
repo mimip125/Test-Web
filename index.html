@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <head>
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Miranda Pepin</title>
+	
+	<link rel="icon" 
+      	type="image/png" 
+      	href="MPLOGO.png"/>
+	
+	<meta name="author" content="Miranda Pepin" />
+	<meta name="description" content="A Nashville-based New York actor, dancing when she finds the time..." />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body>
-<div class="topnav" id="myTopnav">
-			<a href="./" style="font-size:150%" class="active">MAIN</a>
+<body>	
+	<div id="page">
+		<div id="logo">
+			<h1><a href="./">Miranda Pepin</a></h1>
+		</div>
+		<div class="topnav" id="myTopnav">
+			<a href="./" style="font-size:150%" class="active">RESUME</a>
 			<a href="./media.html" style="font-size:150%">MEDIA</a>
-			<a href="./news.html" style="font-size:150%">NEWS</a>
+			<!-- <li class="gray"><a href="./media.html">Gallery</a></li>-->
 			<a href="./contact.html" style="font-size:150%">CONTACT</a>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		    <i class="fa fa-bars"></i>
 		  </a>
 		</div>
-<h2 style="text-align:center">Slideshow Gallery</h2>
+		<br/>
+		<!-- Container for the image gallery -->
+		<div class="container">
+			<div class="mySlides">
+			<!-- Full-width images with number text -->
+				<img src="MirandaPepin.jpg" style="width:100%" class="center">
+				<div class="overlay"><a href= "http://nilescottstudios.com/" target="_blank"><img src="NileScottStudios.png" 
+										style="width:20%"></a></div>
+			</div>
 
-<!--<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 2</div>
-    <img src="img_woods_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 2</div>
-    <img src="img_5terre_wide.jpg" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-    </div>
-  </div>-->
-</div>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-  
-<script src="script.js" type="text/javascript"></script>  
+			<div class="mySlides">
+				<img src="MirandaPepinComm.jpg" style="width:64%" class="center">
+				<div class="overlay"><a href= "http://nilescottstudios.com/" target="_blank"><img src="NileScottStudios.png" 
+										style="width:20%"></a></div>
+			</div>
+		</div>
+		<br/>
+		<!-- Thumbnail images -->
+		<div class="row">
+			<div class="thumbnails">
+				<div class="column">
+					<img class="demo cursor" src="MirandaPepin.jpg" style="width:100%" onclick="currentSlide(1)" 
+					     alt="Theatrical Headshot">
+				</div>
+				<div class="column"> 
+					<img class="demo cursor" src="MirandaPepinComm.jpg" style="width:64%" onclick="currentSlide(2)" 
+					     alt="Commercial Headshot">
+				</div>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="resume">
+		<a href="MirandaPepin.pdf" style="font-size:150%" target="_blank">RESUME - PDF</a>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="./" target="_blank">Miranda Pepin</a>
+			</p>
+		</div>
+	</div>
+	<script src="script.js" type="text/javascript"></script> 
 </body>
 </html>
