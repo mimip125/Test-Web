@@ -5,7 +5,7 @@ html{ margin: auto; max-width: 1000px;}
 */
 p{ line-height: 1em; }
 h1, h2, h3, h4{
-    color: darkgray;
+    color: dimgray;
 	font-weight: normal;
 	margin: 0.25em;
 }
@@ -13,11 +13,11 @@ h1{ font-size: 4em; }
 h2{ font-size: 1.5em; }
 
 a{
-	color: dimgray;
+	color: darkgoldenrod;
 	text-decoration: none;
 }
 	a:hover,
-	a:active{ color: darkgoldenrod; }
+	a:active{ color: dimgray; }
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
