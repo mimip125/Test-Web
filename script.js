@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 var slideIndex = 1;
 showSlides(slideIndex);
 
