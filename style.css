@@ -12,12 +12,12 @@ h1, h2, h3, h4{
 h1{ font-size: 4em; }
 h2{ font-size: 1.5em; }
 
-a{
+a.gold{
 	color: darkgoldenrod;
 	text-decoration: none;
 }
-	a.classgold:hover,
-	a.classgold:active{ color: dimgray; }
+	a.gold:hover,
+	a.gold:active{ color: dimgray; }
 a.gray{
 	color: dimgray;
 	text-decoration: none;
