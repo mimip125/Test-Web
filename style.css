@@ -18,7 +18,12 @@ a{
 }
 	a:hover,
 	a:active{ color: dimgray; }
-
+b{
+	color: dimgray;
+	text-decoration: none;
+}
+	b:hover,
+	b:active{ color: darkgoldenrod; }
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
