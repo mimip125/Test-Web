@@ -1,4 +1,5 @@
 *{box-sizing: border-box;}
+html{ margin: auto; max-width: 1000px;}	
 /*
 * multi-line comment
 */
@@ -21,7 +22,7 @@ a{
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray; max-width: 1000 px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray;
 }
 /* you can but your code all in one line like above */
 #page{ margin: 30px; }
