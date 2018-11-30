@@ -12,18 +12,18 @@ h1, h2, h3, h4{
 h1{ font-size: 4em; }
 h2{ font-size: 1.5em; }
 
-a.gold{
+a.class1{
 	color: darkgoldenrod;
 	text-decoration: none;
 }
-	a.gold:hover,
-	a.gold:active{ color: dimgray; }
-a.gray{
+	a.class1:hover,
+	a.class1:active{ color: dimgray; }
+a.class2{
 	color: dimgray;
 	text-decoration: none;
 }
-	a.gray:hover,
-	a.gray:active{ color: darkgoldenrod; }
+	a.class2:hover,
+	a.class2:active{ color: darkgoldenrod; }
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
