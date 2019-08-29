@@ -260,6 +260,9 @@ img {
      .newscolumn {
         width: 100%;
     }
+	.mediacolumn {
+		width: 13%;
+	}
 }
 
 /* Add a transparency effect for thumnbail images */
