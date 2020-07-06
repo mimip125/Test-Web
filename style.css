@@ -221,6 +221,10 @@ img {
   display: inline-block;
   width: 20%;
 }
+.halfcolumn {
+	display: inline-block;
+	width:50%;
+}
 .mediacolumn {
 	display: inline-block;
 	width:15%;
